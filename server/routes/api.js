@@ -8,7 +8,7 @@ const User = require('../models/user')
 
 const mongoose = require('mongoose')
 
-const db = "mongodb+srv://name:password@eventdb.c9gf1.mongodb.net/dbname?retryWrites=true&w=majority"
+const db = "mongodb+srv://name:password@dbname.c9gf1.mongodb.net/dbname?retryWrites=true&w=majority"
 
 mongoose.connect(db, {
     useUnifiedTopology: true,
